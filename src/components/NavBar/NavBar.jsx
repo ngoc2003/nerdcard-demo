@@ -12,7 +12,7 @@ const NavBar = (props) => {
     setOpenMenu(!openMenu)
   }
   return (
-    <nav className='flex items-center pt-8 md:px-8'>
+    <nav className='flex items-center pt-2 md:px-8'>
       <div className='flex items-center'>
         <div className='mr-2 text-[20px] font-bold'>NerdCard</div>
         {isDarkMode ?  (
